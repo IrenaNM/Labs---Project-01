@@ -1,0 +1,216 @@
+@media only screen and (max-width: 1500px) {
+  .six-col-wrapper {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .parag {
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 1255px) {
+  .six-col-wrapper {
+    width: 100%;
+  }
+ .six-card {
+    width: 31.3%;
+}
+.header-inner {
+    width: 97%;
+}
+}
+@media only screen and (max-width: 1199px) {
+  .links {
+    margin-left: 0;
+  }
+  .six-col-wrapper {
+    width: 100%;
+  }
+  #scroll-top-button {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+  }
+  .six-col-wrapper {
+    padding-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 1142px) {
+  .button-inner a {
+    padding: 22px 15px;
+  }
+}
+@media only screen and (max-width: 1054px) {
+  .button-inner a {
+    font-size: 17px;
+    padding: 22px 15px;
+  }
+}
+@media only screen and (max-width: 1007px) {
+  .six-all {
+    width: 27.5%;
+  }
+  .header-inner {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .parag {
+    padding-right: 7px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .burger-menu {
+    display: block;
+  }
+  .links {
+    display: none;
+  }
+  .link-button {
+    display: none;
+  }
+  .bg-pic h1 {
+    font-size: 65px;
+  }
+  .button-inner {
+    flex-direction: column;
+  }
+  .button-inner a {
+    padding: 22px 40px;
+  }
+  .six-card {
+    width: 45%;
+  }
+  .button-btn:not(:last-child) {
+    border-bottom: 1px solid #555;
+    border-right: none;
+  }
+  .btn-load {
+    display: inline-block;
+    position: absolute;
+    bottom: 77px;
+    right: 55px;
+    padding: 6px 20px;
+  }
+  .six-card:hover .flip-inner {
+  box-shadow: 0px 1px 10px 0px rgba(58, 57, 57, 0.68);
+  transform: none;
+}
+}
+@media only screen and (max-width: 767px) {
+  .bg-pic {
+    background-image: none;
+    background-color: #fcd232;
+  }
+  .opacity {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .bg-pic h1 {
+    color: #000;
+    font-size: 55px;
+    font-weight: 600;
+    padding: 0 15px;
+  }
+  .button-inner a {
+    padding: 22px 15px;
+  }
+  .six-card {
+    width: 100%;
+    margin: 10px 15px;
+  }
+  .card-title {
+    text-align: left;
+    padding: 30px 15px;
+  }
+  .card-title h2 {
+    font-size: 35px;
+  }
+  .form-header h1 {
+    font-size: 36px;
+  }
+  .btn-form {
+    margin-top: 29px;
+  }
+
+  .btn-load {
+    bottom: 87px;
+    right: 15px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .bg-pic h1 {
+    font-size: 42px;
+  }
+  #scroll-top-button {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 369px) {
+  .btn-load {
+    bottom: 110px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+   .links-inner a {
+     font-size: 22px;
+   }
+  .six-card {
+    margin: 15px;
+  }
+  .bg-pic h1 {
+    font-size: 130px;
+  }
+  .btn-dangerr {
+    font-size: 25px;
+  }
+  .six-body {
+    padding: 20px 20px 100px 20px;
+  }
+  .six-card img {
+    height: 25vh;
+  }
+  .six-body h3 {
+    font-size: 30px;
+  }
+  .six-body p {
+    font-size: 22px;
+  }
+  .six-body .date {
+    font-size: 18px;
+  }
+  .yellow {
+    font-size: 23px;
+  }
+  .more-btn {
+    font-size: 22px;
+  }
+  .logo {
+    width: 70px;
+  }
+  .links {
+    margin-left: 200px;
+  }
+  .parag {
+    font-size: 27px;
+  }
+  .card-title h2 {
+    font-size: 60px;
+  }
+  .fa-arrow-up {
+    font-size: 40px;
+  }
+  #scroll-top-button {
+    bottom: 17px;
+  }
+  input[type="text"],
+  input[type="email"] {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1620px) {
+  .button-inner a {
+    padding: 22px 80px;
+  }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="title" content="Brainster Labs"/>
+    <meta name="keywords" content="web, frond, development, brainster, academy, programming, marketing, design"/>
+    <meta name="description" content="Want to see our Academy students projects? Click on that blue words up there and get your mind blown."/>
+    <meta name="author" content="Irena N.Angelova"/>    
+    <link rel="icon" href="Images/Brainster-Logo-031.png" type="image/icon-png"/>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet"/>
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="Assets/styles.css"/>
+    <link rel="stylesheet" href="Assets/querys.css"/>
+    <title>Brainster Labs</title>
+  </head>
+  <body class="body">
+    <div class="main-header primary">
+      <div class="header-inner flex1 height">
+        <div class="logo-con">
+        <a href="index.html"
+          ><figure class="logo">
+            <img src="Images/Brainster-Logo-031.png" alt="Logo Brainster" /></figure
+        ></a>
+        </div>
+        <div class="links">
+          <ul class="links-inner flex m-0 p-0">
+            <li><a href="https://www.brainster.io/marketpreneurs" target="_blank">Академија за Маркетинг</a></li>
+            <li><a href="http://codepreneurs.co" target="_blank">Академија за Програмирање</a></li>
+            <li><a href="https://www.brainster.io/data-science?gclid=EAIaIQobChMIy5je-cfe5gIVUuaaCh0UpgmtEAAYASAAEgIv5vD_BwE" target="_blank">Академија за Data Science</a></li>
+            <li><a href="https://www.brainster.io/design" target="_blank">Академија за Дизајн</a></li>
+          </ul>
+        </div>
+        <div class="link-button text-center">
+          <div class="link-button-inner">
+            <a class="btn btn-dangerr white bold" href="form.html">Вработи наш студент</a>
+          </div>
+        </div>
+        <div class="burger-menu">
+          <!-- <input type="checkbox" id="burger-men" /> -->
+          <label id="burger" for="burger-men">
+            <div class="gray"></div>
+            <div class="gray"></div>
+            <div class="gray"></div>
+          </label>
+          <nav class="nav-menu">
+            <ul>
+              <li><a class="white" href="https://www.brainster.io/marketpreneurs" target="_blank" >Академија за Маркетинг</a></li>
+              <li><a class="white" href="http://codepreneurs.co" target="_blank">Академија за Програмирање</a></li>
+              <li><a class="white" href="https://www.brainster.io/data-science?gclid=EAIaIQobChMIy5je-cfe5gIVUuaaCh0UpgmtEAAYASAAEgIv5vD_BwE" target="_blank">Академија за Data Science</a></li>
+              <li><a class="white" href="https://www.brainster.io/design" target="_blank">Академија за Дизајн</a></li>
+              <a href="form.html" class="btn btn-dangerr white nav-button btn-close bold" >Вработи наш студент</a>
+            </ul>            
+          </nav>
+          <div class="icon-nav"></div>
+        </div>
+      </div>
+     </div>      
+    </div>
+
+    <!-- Picture -->
+    <div class="bg-pic">
+      <div class="opacity flex white text-center">
+        <h1 class="m-0">Brainster Labs</h1>
+      </div>
+    </div>
+    
+    <!-- Picture End -->
+      <!-- Buttons -->
+      <div class="buttons gray">
+        <div class="button-inner">
+          <a role="button" class="all white gray button-marketing button-btn bold"><div class="buttons-all flex1">
+            <p class="parag">Проекти на студенти по академијата за маркетинг</p class="parag">
+            <i class="fas fa-check-circle  fa-button"></i>       
+          </div>
+        </a>       
+         <a role="button" class="all white gray button-programming bord button-btn bold"> <div class="buttons-all flex1">
+            <p class="parag">Проекти на студенти по академијата за програмирање</p>
+            <i class="fas fa-check-circle  fa-button"></i>
+          </div>
+        </a>
+          <a role="button" class="all white gray button-design button-btn bold"><div class="buttons-all flex1">
+            <p class="parag">Проекти на студенти по академијата за дизајн</p>
+            <i class="fas fa-check-circle fa-button"></i>
+          </div>
+        </a>
+        </div>
+      </div>
+      <!-- Buttons End -->
+      <!-- Cards -->
+      
+      <div class="six-col-container primary">
+        <div class="card-title primary">
+          <h2 class="m-0 bold">Проекти</h2>
+        </div>
+        <div id="renderCards" class="six-col-wrapper flex">
+          <!-- Cards -->           
+        </div>           
+        <div class="load-container primary">
+          <a href="#" id="loadMore" class="btn-load bold gray"><span>Повеќе</span></a>
+        </div>
+        <button id="scroll-top-button"><i class="fas fa-arrow-up"></i></button>
+        <!-- Cards End -->
+        <!-- Footer -->
+        <div class="gray text-center">
+          <p class="footer-p m-0 bold white">Изработено со <span><i class="fas fa-heart"></i></span> од Ирена Н. Ангелова</p>
+        </div>
+      </div>
+    <!-- Footer End -->
+    <script src="https://kit.fontawesome.com/6c02340e28.js" crossorigin="anonymous"></script>
+    <script src="Assets/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="Assets/db.js"></script>
+    <script src="Assets/main.js"></script>    
+  </body>
+</html>
